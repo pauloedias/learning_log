@@ -1,0 +1,6 @@
+#Cada servico listado sera implantado no proprio conteiner
+#como parte de seu do projeto Platform.sh.
+
+db:
+  type: postgresql:12
+  disk: 1024

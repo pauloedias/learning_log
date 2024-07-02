@@ -1,0 +1,10 @@
+#Cada rota descreve como um URL de entrada sera processado pelo Platform.sh.
+
+"https://{default}/":
+  type: upstream
+  upstream: "ll_project:http"
+
+
+"https://www.{default}/":
+  type: redirect
+  to: "https://{default}/"
